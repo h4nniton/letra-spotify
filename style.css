@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://64.media.tumblr.com/071bafb6cf5a4c23ed0622e32e8a1676/d3ceae7ff22efb6c-58/s400x600/f8b5ad9bc278ab02f28a8b8f4bf24dc819d97b81.gif');
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
     display: grid;
     place-content: center;
     height: 100vh;
@@ -21,7 +22,8 @@ body {
 
 
 .card {
-    width: 600px;
+    width: 320px;
+    height: 230px;
     background-color: white;
     transition: all .5s;
     padding: 16px;
@@ -35,8 +37,37 @@ body {
     gap: 20px
 }
 
-.card img {
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.card-description {
+    position: relative;
+}
+
+.capa {
     width: 50px;
     height: 50px;
     border-radius: 10%;
+}
+
+.lyric {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: -70px;
+}
+
+.logo {
+    width: 22px;
+    height: 22px;
+    margin-top: 38px;
+    margin-left: -70px;
 }
