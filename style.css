@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
 body {
     background-image: url('https://64.media.tumblr.com/071bafb6cf5a4c23ed0622e32e8a1676/d3ceae7ff22efb6c-58/s400x600/f8b5ad9bc278ab02f28a8b8f4bf24dc819d97b81.gif');
     background-size: cover;
